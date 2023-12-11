@@ -1,4 +1,5 @@
 # https://leetcode.com/problems/decode-ways/description/
+# (TLE solutions - not the most optimised solutions)
 
 # Actual problem: Decode string of n characters
 # Sub-problem: Decode string of n-1,n-2,.....1,0 characters
@@ -7,7 +8,7 @@
 
 class Solution:
     def numDecodings(self, s: str) -> int:
-        # return 0 is leading zero is present
+        # return 0 as leading zero is present
         if "0" == s[0]:
             return 0
         curr = ""
@@ -41,4 +42,4 @@ if __name__ == '__main__':
     nums = "2101"
     s = Solution()
     ans = s.numDecodings(nums)
-    print(ans)
+    print("Output : ", ans)

@@ -1,3 +1,6 @@
+# https://leetcode.com/problems/min-cost-climbing-stairs/
+# (TLE solutions - not the most optimised solutions)
+
 class Solution:
     def minCostClimbingStairs(self, cost: list[int]) -> int:
         cost.append(0)
@@ -13,4 +16,4 @@ if __name__ == '__main__':
     cost = [1,100,1,1,1,100,1,1,100,1]
     s = Solution()
     no = s.minCostClimbingStairs(cost)
-    print(no)
+    print("Output : ", no)

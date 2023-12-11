@@ -1,3 +1,6 @@
+# https://leetcode.com/problems/n-th-tribonacci-number/
+# (TLE solutions - not the most optimised solutions)
+
 class Solution:
     def tribonacci(self, n: int) -> int:
         if n == 1 or n == 2:

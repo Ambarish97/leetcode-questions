@@ -31,4 +31,4 @@ if __name__ == '__main__':
     nums = 3
     s = Solution()
     ans = s.generate_parenthesis(nums)
-    print(ans)
+    print("Output : ", ans)
